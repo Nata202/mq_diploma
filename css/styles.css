@@ -124,18 +124,14 @@
 }
 
 .nav-list-items {
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   font-weight: 400;
   font-size: 13px;
   color: #ffffff;
   text-align: center;
 }
 
-.nav-list-item-main, 
-.nav-list-item-post, 
-.nav-list-item-article, 
-.nav-list-item-tags, 
-.nav-list-item-items {
+.nav-list-item-indent {
   margin-right: 33px;
 }
 
@@ -145,7 +141,7 @@
   text-decoration: underline;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-align: center;
 }
 
@@ -153,7 +149,7 @@
   font-size: 45px;
   line-height: 1.6;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -172,7 +168,7 @@
   line-height: 2;
   color: #0f0d0e;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
@@ -239,7 +235,7 @@
 
 .news-wrapper {
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   font-size: 18px;
   color:  #fff;
   position: relative;
@@ -251,7 +247,7 @@
   line-height: 1.2;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-transform: uppercase;
   padding: 0 18px 0 0;
 }
@@ -261,10 +257,10 @@
   text-decoration: underline;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
-.trend-pic-one{
+.trend-pic-garden{
   background-image: url(../images/trend1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -273,7 +269,7 @@
   margin-right: 0.5%;
   }
 
-.trend-pic-two {
+.trend-pic-cheese {
   background-image: url(../images/trend2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -282,7 +278,7 @@
   margin-right: 0.5%;
  }
 
-.trend-pic-three {
+.trend-pic-rock {
   background-image: url(../images/trend3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -291,7 +287,7 @@
   margin-right: 0.5%;
   }
 
-.trend-pic-four {
+.trend-pic-lemon {
   background-image: url(../images/trend4.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -319,13 +315,13 @@
   display: flex;
   flex-direсtion: column;
   width: 269px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .news {
   display: flex;
   width: 777px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   margin-bottom: 59px;
 }
 
@@ -364,7 +360,7 @@ li {
   text-decoration: underline;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .news-title {
@@ -380,7 +376,7 @@ li {
   font-size: 20px;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .news-time {
@@ -419,10 +415,10 @@ li {
 .widget {
   display: flex;
   width: 272px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
-.widget:nth-child(n+2) {
+.widget-aside {
   margin-top: 21px;
 }
 
@@ -431,7 +427,7 @@ li {
   line-height: 1.2;
   color: #000000;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
@@ -562,7 +558,7 @@ li {
   line-height: 40px;
   color: #000000;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   display: block;
   padding-top: 23px;
   padding-bottom: 12px;
@@ -586,7 +582,7 @@ li {
   border: none;
   width: 100%;
   background-color: #b59f5b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
@@ -645,7 +641,7 @@ li {
   align-items: center;
   align-content: space-between;
   text-decoration: none;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-transform: uppercase;
   color: #0f0d0e;
   font-size: 12px;
@@ -681,21 +677,21 @@ li {
   font-size: 12px;
   color: #000000;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .last-item-link:hover {
   font-size: 12px;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .last-item-coount {
   font-size: 12px;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   vertical-align: super;
 }
 
@@ -715,7 +711,7 @@ li {
   line-height: 2;
   color: #0f0d0e;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
@@ -768,7 +764,7 @@ li {
   line-height: 1.2;
   color: #0f0d0e;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-transform: uppercase;
 }
 
@@ -776,7 +772,7 @@ li {
   font-size: 20px;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .text-shop {
@@ -784,7 +780,7 @@ li {
   line-height: 1.4;
   color: #0d0b0c;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   padding-top: 12px;
 }
 
@@ -797,14 +793,14 @@ li {
   text-decoration: underline;
   color: #b59f5b;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .shop-footer-price {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   width: 300px;
   margin-top: 25px;
   margin-botton: 25px;
@@ -816,7 +812,7 @@ li {
 
 .shop-price {
   font-size: 24px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   font-weight: 700;
   color: #222;
   line-height: 1;
@@ -824,7 +820,7 @@ li {
 }
 
 .shop-price-value {
-  font-family: "Open Sans"
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .shop-price-old {
@@ -835,7 +831,7 @@ li {
 
 .shop-rub {
   margin-left: 6px;
-  font-family: "Open Sans"
+  font-family: "Open Sans", Arial, Sans-serif;
 }
 
 .button-shop {
@@ -926,7 +922,7 @@ li {
   font-size: 12px;
   color: #999999;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -994,7 +990,7 @@ li {
   line-height: 1.4;
   color: #0f0d0e;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   margin-bottom: 13px;
   margin-top: 34px;
   display: block;
@@ -1010,7 +1006,7 @@ li {
   border: none;
   padding: 15px 30px 15px 19px;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   font-size: 12px;
   color: #000000;
   background-color: #f3f7f6;
@@ -1074,7 +1070,7 @@ li {
   border: none;
   padding: 15px 30px 15px 19px;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   font-size: 12px;
   background-color: #f3f7f6;
   color: #000000;
@@ -1091,7 +1087,7 @@ li {
   border: none;
   width: 100%;
   background-color: #b59f5b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Sans-serif;
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
@@ -1282,8 +1278,6 @@ li {
   .shop-price-old {
     font-size: 12px;
   }
-
-
   
 
   .footer {
@@ -1340,15 +1334,15 @@ li {
   font-size: 14px;
 }
 
-  .trend-pic-two {
+  .trend-pic-cheese {
     margin-right: 0;
     padding: 74px 20px 14px 20px;
   }
 
-  .trend-pic-one {
+  .trend-pic-garden {
     margin-right: 4px;
   }
-  .trend-pic-three {
+  .trend-pic-rock {
     margin-right: 4px;
   }
 }
@@ -1377,19 +1371,16 @@ li {
   font-size: 14px;
   }
 
-.trend-pic-one{
+.trend-pic-garden{
   margin-right: 4px;
   }
 
-.trend-pic-two {
+.trend-pic-cheese {
   padding: 74px 20px 14px 20px;
+  margin-right: 4px;
 }
 
-.trend-pic-two {
-  margin-right: 4px;
- }
-
-.trend-pic-three {
+.trend-pic-rock {
   margin-right: 4px;
   }
 }
@@ -1464,7 +1455,7 @@ li {
   margin-bottom: 3px;
 }
 
-.trend-pic-two {
+.trend-pic-cheese {
   padding: 66px 15px 15px 15px;
 }
 
@@ -1774,8 +1765,7 @@ font-size: 12px;
 }
 
   .popup-container {
-    max-width: 640px;
-    width: 100%;
+    width: 95%;
   }
 
   .feedback_button {
